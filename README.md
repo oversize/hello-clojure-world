@@ -12,13 +12,13 @@ to follow anything that was told. As said, i do have a solid understanding
 of programming. Some Resources i will obviously need to work through are
 
  * https://clojure.org/index (that felt kind of rough for a newbie like me)
- * http://clojure-doc.org/ (a)
+ * http://clojure-doc.org/ ()
+ * https://learnxinyminutes.com/docs/clojure/
  * https://www.braveclojure.com/ (Looks like a good starting point)
- * http://www.learn-clojure.com/ (semms inactive?)
+ * http://www.learn-clojure.com/ (seems inactive?)
+ * https://github.com/functional-koans/clojure-koans
 
-Yeah, actually braveclojure seems like exactly the thing i need. Will have
-to leav the Atom now and read the thing.
-
+Yeah, actually https://www.braveclojure.com/ seems like exactly the thing i need. Will have to leave the Atom now and read.
 
 ## The Environment
 
@@ -35,3 +35,19 @@ Lets see:
     lein new app clojure-noob
 
 Creates a new clojure Project!
+
+    lein run
+
+Runs it and
+
+    lein uberjar
+
+builds an executable jar file from it that can be run using java
+
+    java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar
+
+Woah... Holy moly!
+
+Even spiffier:
+
+    lein new cryogen a-blog
