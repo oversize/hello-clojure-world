@@ -51,3 +51,14 @@ Woah... Holy moly!
 Even spiffier:
 
     lein new cryogen a-blog
+    cd a-blog
+    lein ring server
+
+If thats not hot chocolate, i dont know!
+
+Ok, as far as i see it, i should realy invest in emacs. http://david.rothlis.net/emacs/howtolearn.html
+
+I never realy got the hang of vim. I was always intrgued but never realy made
+the switch fulltime. So, now that i do have a decent reason to try emacs and
+i always was on the vim side (for no other reason then it was the first i learend)
+i fell i definitely should give emacs the chance.
